@@ -7,16 +7,22 @@
 //
 
 #import "ViewController.h"
-
+#import "DownloadOperation.h"
 @interface ViewController ()
-
+{
+    //定义队列
+    NSOperationQueue *_queue;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   //实例化队列
+    _queue = [[NSOperationQueue alloc]init];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

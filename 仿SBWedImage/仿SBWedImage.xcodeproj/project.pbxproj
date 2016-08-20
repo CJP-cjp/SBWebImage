@@ -13,6 +13,7 @@
 		044F53BE1D685838004BDC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F53BC1D685838004BDC65 /* Main.storyboard */; };
 		044F53C01D685838004BDC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044F53BF1D685838004BDC65 /* Assets.xcassets */; };
 		044F53C31D685838004BDC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F53C11D685838004BDC65 /* LaunchScreen.storyboard */; };
+		044F53CC1D685890004BDC65 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F53CB1D685890004BDC65 /* DownloadOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		044F53BF1D685838004BDC65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044F53C21D685838004BDC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044F53C41D685838004BDC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044F53CA1D685890004BDC65 /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		044F53CB1D685890004BDC65 /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				044F53C11D685838004BDC65 /* LaunchScreen.storyboard */,
 				044F53C41D685838004BDC65 /* Info.plist */,
 				044F53B31D685838004BDC65 /* Supporting Files */,
+				044F53CA1D685890004BDC65 /* DownloadOperation.h */,
+				044F53CB1D685890004BDC65 /* DownloadOperation.m */,
 			);
 			path = "仿SBWedImage";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				044F53BB1D685838004BDC65 /* ViewController.m in Sources */,
 				044F53B81D685838004BDC65 /* AppDelegate.m in Sources */,
 				044F53B51D685838004BDC65 /* main.m in Sources */,
+				044F53CC1D685890004BDC65 /* DownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
