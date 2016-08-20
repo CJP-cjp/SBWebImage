@@ -21,6 +21,12 @@
     [super viewDidLoad];
    //实例化队列
     _queue = [[NSOperationQueue alloc]init];
+    //实例化自定义操作
+    DownloadOperation *op = [[DownloadOperation alloc]init];
+    //把自定义的操作添加到队列
+    [_queue addOperation:op];
+    //向自定义操作执行的任务
+    
     
 
 }

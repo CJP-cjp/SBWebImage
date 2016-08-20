@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface DownloadOperation : NSOperation
-
+//
+@property(copy,nonatomic)NSString *urlString;
 @end
